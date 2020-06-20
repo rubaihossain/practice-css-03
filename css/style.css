@@ -1,0 +1,95 @@
+.test1{
+    width: 450px;
+    border: 2px solid tomato;
+    text-align: justify;
+    text-align-last: center;
+    text-transform: uppercase;
+    text-indent: 50px;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.test2{
+    width: 400px;
+    border: 2px solid red;
+    font-size: 20px;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+    text-decoration-style: double;
+    margin-bottom: 10px;
+}
+.test3{
+    width: 400px;
+    border: 2px green solid;
+    text-align: justify;
+    word-wrap: break-word;
+    word-break: break-all;
+    margin-bottom: 10px;
+}
+.test4{
+    width: 300px;
+    border: 2px solid tomato;
+    text-align: justify;
+    color red;
+    font-family: arial;
+    text-shadow: -2px -2px 2px red, 2px 2px 2px green, 4px 4px 2px blue;
+    margin-bottom: 10px;
+}
+.test5{
+    width: 300px;
+    border: 2px solid tomato;
+    text-align: justify;
+    white-space: pre-wrap;
+    margin-bottom: 10px;
+}
+.test6{
+    width: 300px;
+    border: 2px solid tomato;
+    text-align: justify;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+}
+.test7{
+    width: 300px;
+    height: 300px;
+    border: 2px solid tomato;
+    text-align: justify;
+    writing-mode: vertical-lr;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+.test8{
+    width: 300px;
+    height: 300px;
+    border: 2px solid tomato;
+    text-align: justify;
+    writing-mode: vertical-rl;
+    float: left;
+    margin: 0 0 10px 0;
+}
+.test9{
+    width: 800px;
+    border: 2px solid tomato;
+    text-align: justify;
+    clear: both;
+    column-count: 4;
+    column-gap: 30px;
+    column-rule-style: double;
+    column-rule-color: green;
+    margin-bottom: 10px;
+}
+.test10{
+    width: 800px;
+    border: 0 solid tomato;
+    text-align: justify;
+    clear: both;
+    column-width: 100px;
+    column-gap: 30px;
+    column-rule-style: double;
+    column-rule-color: green;
+}
+h1{
+    column-span: all;
+}
